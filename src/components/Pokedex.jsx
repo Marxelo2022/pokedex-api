@@ -67,11 +67,17 @@ export const Pokedex = () => {
         <div className='Child__header'>
           <SearchInput
             setPokeSearch={setPokeSearch}
-            setOptionType={setOptionType} />
+            setOptionType={setOptionType} 
+            setLimit={setLimit}
+            setOffSet={setOffSet}
+            />
           <SelectType
             setOptionType={setOptionType}
             optionType={optionType}
-            setPokeSearch={setPokeSearch} />
+            setPokeSearch={setPokeSearch} 
+            setOffSet={setOffSet}
+            setLimit={setLimit}
+            />
         </div>
       </header>
       <div className='Pokemons'>

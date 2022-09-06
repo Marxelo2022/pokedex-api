@@ -1,11 +1,13 @@
 import React from 'react'
 
-const SearchInput = ({setPokeSearch,setOptionType}) => {
+const SearchInput = ({setPokeSearch,setOptionType, setOffSet, setLimit}) => {
 
   const handleSubmit = e => {
     e.preventDefault()
     setPokeSearch(e.target.searchText.value.trim().toLowerCase())
     setOptionType('All')
+    setLimit(20)
+    setOffSet(0)
     e.target.searchText.value = ""
   }
 
