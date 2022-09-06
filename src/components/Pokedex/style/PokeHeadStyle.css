@@ -1,0 +1,154 @@
+li {
+    list-style: none;
+}
+.Principal__title{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 30px;
+    text-align: center;
+}
+.title__span{
+    color: crimson;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.Form__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Form__input{
+    border: 0;
+    height: 32px;
+    width: 230px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 7px 0px rgb(81, 80, 80);
+    font-size: 15px;
+}
+.Form__btn{
+    cursor: pointer;
+    border: 0;
+    background-color: crimson;
+    color: white;
+}
+.Filter__container{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px 0px rgb(81, 80, 80);
+}
+.Filter__container::-webkit-scrollbar{
+    display: none;
+}
+.Filter__options-name{
+    text-align: center;
+    color: black;
+    padding: 0;
+    height: 10px;
+
+}
+.Pagination{
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.Pagination__section{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Pagination__btn{
+    padding: 1px 1px 1px 1px;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+    font-size: 20px;
+    background-color: crimson;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.Pagination__next{
+    font-size: 20px;
+    cursor: pointer;
+}
+.Pagination__btn:hover{
+    transform: scale(1.2);
+}
+.Pagination__numbers{
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    width: 30px;
+    padding-left: 5px;
+    transition: transform .2s ease-in-out
+}
+.Pagination__numbers:hover{
+    background-color: crimson;
+    color: white;
+    transition: transform .2s ease-in-out;
+    transform: scale(1.2);
+}
+.both{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn__off {
+    display: none;
+}
+.none__display{
+    display: none;
+}
+@media screen and (min-width:768px){    
+    .Principal__title{
+        text-align: start;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .Child__header{ 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        padding-left: 50px;
+    }
+    .Form__container{
+        position: initial;
+    }
+    .Form__input{
+        width: 300px;
+    }
+    .Filter__container{
+        position: initial;
+        position: relative;
+        left: 50px;
+    }
+}
+@media screen and (min-width:1600px){
+    .Principal__title{
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+    .Child__header{
+        padding-left: 100px;
+    }
+}

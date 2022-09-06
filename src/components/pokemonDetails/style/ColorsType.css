@@ -1,0 +1,72 @@
+.type-normal{
+    background-color: rgba(195,195,195, 0.7);
+    color: white;
+  }
+  .type-fighting{
+    background-color: rgba(221,101,0, 0.7);
+    color: white;
+  }
+  .type-flying{
+    background-color: rgba(79,225,230,0.7);
+    color: white;
+  }
+  .type-poison{
+    background-color: rgba(192,79,230,0.7);
+    color: white;
+  }
+  .type-ground{
+    background-color: rgba(106,66,10,0.7);
+    color: white;
+  }
+  .type-rock{
+    background-color: rgba(82,82,82,0.7);
+    color: white;
+  }
+  .type-bug{
+    background-color: rgba(0,143,112,0.7);
+    color: white;
+  }
+  .type-ghost{
+    background-color: rgba(51,0,136,0.6);
+    color: white;
+  }
+  .type-steel{
+    background-color: rgba(105,105,105,0.7);
+    color: white;
+  }
+  .type-fire{
+    background-color: rgba(255,49,0,0.8);
+    color: white;
+  }
+  .type-water{
+    background-color: rgba(0,140,255,0.8);
+    color: white;
+  }
+  .type-grass{
+    background-color: rgba(43,131,0,0.8);
+    color: white;
+  }
+  .type-electric{
+    background-color: rgba(255,203,0,0.8);
+    color: white;
+  }
+  .type-psychic{
+    background-color: rgba(255,0,247,0.8);
+    color: white;
+  }
+  .type-ice{
+    background-color: rgba(0,217,255,0.8);
+    color: white;
+  }
+  .type-dragon{
+    background: linear-gradient(0deg, rgba(160,92,177,1) 0%, rgba(255,95,113,1) 100%);
+    color: white;
+  }
+  .type-dark{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  .type-fairy{
+    background-color: rgba(255,177,226,0.8);
+    color: white;
+  }

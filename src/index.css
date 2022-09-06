@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f1f1f1;
+  }
+  h1, h2, h3, h4, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul{
+    padding-left: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+  }
+  img{
+    width: 100%;
+  }
+  input {
+    outline: 0;
+    font-family: inherit;
+  }
+  button {
+    font-family: inherit;
+  }
+.App {
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.Home__container {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+
+.Home__img-mobile {
+    width: 100vw;
+    padding-top: 50px;
+}
+
+.Home__title {
+    color: #FE1936;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Home__text {
+    color: #302F2F;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.Home__form {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Home__input {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border: 0;
+    padding-left: 10px;
+    height: 35px;
+    width: 220px;
+}
+
+.Home__btn {
+    background-color: #D93F3F;
+    color: white;
+    border: 0;
+    width: 50px;
+    cursor: pointer;
+}
+
+.Pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 30px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:425px) {
+    .Home__img {
+        display: none;
+    }
+}
+@media screen and (min-width:426px) {
+    .Home__img {
+        width: 400px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .Home__img-mobile {
+        display: none;
+    }
+    .Home__img {
+        width: 100%;
+        padding-top: 50px;
+    }
+}
+@media screen and (min-width:768px) {
+    .Home__img {
+        width: 700px;
+        margin-top: 80px;
+    }
+    .Home__text{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .Home__form{
+        margin-top: 10px;
+    }
+    .Home__input{
+        width: 300px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .Home__btn{
+        width: 60px;
+    }
+}   
